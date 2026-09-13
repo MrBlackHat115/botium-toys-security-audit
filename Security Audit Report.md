@@ -77,3 +77,74 @@
     - **Secure password management policies are adopted**
       - Although Botium Toys has a password policy, its requirements are nominal and do not meet current minimum password complexity requirements. The company also does not have a centralized password management system.
 
+## Recommendations
+
+Based on the controls and PCI DSS compliance assessment, the following recommendations should be implemented to improve Botium Toys' overall security posture.
+
+### 1. Implement Least Privilege
+
+* Restrict employee access to only the systems and data required for their job responsibilities.
+* Limit access to sensitive information such as customer PII/SPII and cardholder data.
+* Regularly review user permissions and remove unnecessary access.
+
+### 2. Implement Separation of Duties
+
+* Divide sensitive responsibilities among multiple employees.
+* Prevent a single employee from having complete control over sensitive processes.
+* Reduce the risk of unauthorized actions and misuse of access.
+
+### 3. Strengthen Password Policies
+
+* Update the existing password policy with stronger security requirements.
+* Require appropriate password length and complexity.
+* Ensure the policy follows current security best practices.
+
+### 4. Implement a Password Management System
+
+* Implement a centralized password management system.
+* Enforce the organization's password requirements.
+* Provide a secure process for password recovery and resets.
+
+### 5. Implement Encryption
+
+* Encrypt sensitive customer information, especially credit-card data.
+* Protect sensitive information while it is stored and transmitted.
+* Use encryption to improve the confidentiality of sensitive data.
+
+### 6. Implement an Intrusion Detection System (IDS)
+
+* Deploy an IDS to monitor network activity for suspicious behavior.
+* Configure alerts for potentially malicious network activity.
+* Integrate IDS alerts with existing security monitoring tools when appropriate.
+
+### 7. Create Disaster Recovery Plans
+
+* Develop documented disaster recovery procedures.
+* Identify critical systems and data that need to be restored after an incident.
+* Define responsibilities and recovery procedures for IT personnel.
+* Regularly review and test the disaster recovery plan.
+
+### 8. Implement Regular Backups
+
+* Create regular backups of critical business data.
+* Protect backups from unauthorized access.
+* Test backups regularly to verify that data can be successfully restored.
+
+### 9. Establish a Legacy-System Maintenance Schedule
+
+* Create a regular schedule for monitoring and maintaining legacy systems.
+* Document procedures for responding to problems with legacy systems.
+* Identify systems that are approaching or have reached end-of-life.
+
+### 10. Strengthen PCI DSS Compliance
+
+* Restrict access to customer credit-card information to authorized personnel.
+* Protect cardholder data using appropriate security controls.
+* Implement encryption for sensitive cardholder information.
+* Strengthen password and access-management practices.
+
+### 11. Maintain Physical Security Controls
+
+* Continue maintaining existing locks, CCTV surveillance, and fire detection/prevention systems.
+* Regularly inspect and test physical security controls.
+* Document maintenance activities to ensure the controls remain effective.
