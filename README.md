@@ -1,4 +1,4 @@
-# botium toys security audit
+# Botium Toys Security Audit
 
 ## Project Overview
 
